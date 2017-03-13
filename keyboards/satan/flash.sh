@@ -2,4 +2,4 @@
 
 PATH="/usr/local/CrossPack-AVR/bin:$PATH"
 make clean
-make KEYMAP=jeffean dfu
+make KEYMAP=frankchang dfu
