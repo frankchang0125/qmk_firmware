@@ -20,13 +20,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
+/* USB Device descriptor parameter
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0003
 #define MANUFACTURER    SATAN
 #define PRODUCT         GH60
-#define DESCRIPTION     QMK keyboard firmware for Satan GH60 with WS2812 support
+#define DESCRIPTION     QMK keyboard firmware for Satan GH60 with WS2812 support */
+
+#define VENDOR_ID       0xFEED
+#define PRODUCT_ID      0x6060
+#define DEVICE_VER      0x0003
+#define MANUFACTURER    Jeff Tsai
+#define PRODUCT         Pokeshops GH60 keyboard
+#define DESCRIPTION     QMK keyboard firmware on Satan GH60 with WS2812 support
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -39,6 +46,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define UNUSED_PINS
 
 #define BACKLIGHT_PIN B6
+#define BACKLIGHT_BREATHING
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
